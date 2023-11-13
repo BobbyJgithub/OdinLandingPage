@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Discoteca Rounded';
+    src: url('./fonts/DiscotecaRounded-M5xB.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Discoteca Rounded', 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffa1cb;
+    padding: 1rem;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header .logo {
+    width: 50px;
+}
+
+.header .logobox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    font-weight: 100;
+    font-size: small;
+}
+
+.banner {
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+    background-color: #ffa1cb;
+}
+
+.bannerimg {
+    width: 350px;
+    height: auto;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.title {
+    width: 400px;
+    height: auto;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+}
+
+.btn {
+    width: 100px;
+    height: 35px;
+    background-color: #d8defd;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff7fc;
+    gap: 36px;
+    color: grey;
+}
+
+.card {
+    display: flex;
+    gap: 32px;
+}
+.card1, .card2, .card3, .card4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.quote {
+    padding: 50px;
+    background-color: #fcdbee;
+    color: grey;
+ }
+
+.name {
+    text-align: right;
+ }
+
+ .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff7fc;
+    color: white;
+ }
+
+.signup {
+    padding: 25px;
+    background-color: #d8defd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+    border-radius: 20px;
+    flex: 0 1 800px;
+}
+
+.signup .text{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    gap: 10px;
+}
+
+.text h3 {
+    font-size:25px;
+    font-weight: 600;
+}
+
+.signup .btn {
+    border: 1px solid white;
+    flex-shrink: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffa1cb;
+    color: white;
+}
